@@ -1,16 +1,24 @@
 # random-float-pro
-Generate a random [float](https://en.wikipedia.org/wiki/Floating-point_arithmetic)
+Generate a random float
+
 # Installation
 
+## npm Install
+```npm i random-float-pro```
+
 ## Browser Install
+
 ### For Development Use
 ```https://rawgit.com/Prosen-Ghosh/random-float-pro/master/random-float-pro.js```
+
 ### For Production Use
 ```https://cdn.rawgit.com/Prosen-Ghosh/random-float-pro/master/random-float-pro.js```
 
 # Usage
 
 ```javascript
+const randomFloat = require('random-float-pro');
+
 randomFloat({
 	min : 1,
 	max : 10
@@ -43,7 +51,7 @@ randomFloat({
 
 #### randomFloat
 
-`randomFloat(options)`
-- `min` - Start Number
-- `max` - End number
+`randomFloat(options)` Options should be an `object`.
+- `min` - Start Number (Random Floating number generates from this range.)
+- `max` - End number (Random Floating number generates from till this range.)
 - `fractionDigit` - Range (Return a number in fixed point notation).
