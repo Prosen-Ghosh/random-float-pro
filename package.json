@@ -1,10 +1,11 @@
 {
   "name": "random-float-pro",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Generate a random float pint number",
   "main": "random-float-pro.js",
   "scripts": {
-    "test": "mocha"
+    "test": "mocha",
+    "readme": "node ./node_modules/.bin/node-readme"
   },
   "repository": {
     "type": "git",
